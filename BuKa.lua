@@ -127,7 +127,7 @@ end
 
 function Dev(msg) 
 local var = false 
-local SudoIds ={Sudo_Id,6590885543}  
+local SudoIds ={Sudo_Id,7291869416}  
 for k,v in pairs(SudoIds) do 
 if tonumber(msg.sender_id.user_id) == v then 
 var = true 
@@ -978,3 +978,4 @@ Msg_id = data.message_id
 end--data
 end--callback 
 luatele.run(callback)
+end
